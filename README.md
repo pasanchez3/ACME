@@ -56,3 +56,5 @@ The most representative methods are:
 * The method of obtaining a map of hours according to the schedule, it is necessary to say that in case 30 minutes of the hour are passed, it will be taken as an additional hour, decided to put a rounding half up.
 
 * And the method of obtaining the total by adding the values ​​according to the hours, the calculations are made using BigDecimal.
+
+You should clone the project and with a Java IDE, import as Java Project and also running as a Java project.
