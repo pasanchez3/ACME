@@ -52,7 +52,7 @@ public class DayConstant extends AbstractConstant {
 	/**
 	 * Value of.
 	 *
-	 * @param name the name
+	 * @param value the value
 	 * @return the day constant
 	 */
 	public static DayConstant valueOf(String value) {

@@ -46,4 +46,18 @@ public class ScheduleConstant extends AbstractConstant {
 		values = types;
 	}
 	
+	/**
+	 * Value of.
+	 *
+	 * @param value the value
+	 * @return the schedule constant
+	 */
+	public ScheduleConstant valueOf(String value) {
+		for (ScheduleConstant type : values) {
+			if (type.getValue().equals(value)) {
+				return type;
+			}
+		}
+		return null;
+	}
 }
